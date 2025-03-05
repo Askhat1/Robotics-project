@@ -70,4 +70,4 @@ cap.release()
 out.release()
 cv2.destroyAllWindows()
 
-print(f"Обработанное видео сохранено в: {output_path}")
+print(f"PATH: {output_path}")
