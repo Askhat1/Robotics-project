@@ -3,7 +3,7 @@ import torch
 import time
 from ultralytics import YOLO
 
-model = YOLO("C:/Users/ashat/Downloads/archive(3)/results_yolov8n_100e/kaggle/working/runs/detect/train/weights/best.pt")
+model = YOLO("yourmodel")
 
 cap = cv2.VideoCapture(0)
 
